@@ -84,7 +84,15 @@ $showTitle = ($ACT=='show') || ($ACT=='edit') || ($ACT=='backlink')
                 </aside>
             </div>
             <div class="main">
-                <?php echo $buffer?>
+		<?php echo $buffer?>
+
+<div><?php
+global $ACT;
+if($ACT == 'show'){
+    $disqus = &plugin_load('syntax','disqus');
+    if($disqus) echo $disqus->_disqus($conf['plugin']['disqus']['shortname']);
+}
+?></div>
             </div>
         </div>
     </div>
