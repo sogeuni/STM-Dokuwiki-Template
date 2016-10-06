@@ -50,7 +50,7 @@ $showTitle = ($ACT=='show') || ($ACT=='edit') || ($ACT=='backlink')
             <div class="sidebar">
                 <aside class="sidebar-aside">
                     <h3 class="sidebar-title ttc <?php echo $showTitle ? '' : 'hidden';?>">
-                      <?php echo $ID ?>
+                      <?php //echo hsc($ID) ?>
                     </h3>
                     <?php if($conf['maxtoclevel'] > 0): ?>
                         <nav class="sidebar-articleNav">
