@@ -37,6 +37,7 @@
   .wrapper-content {
     display: flex;
     flex-direction: column;
+    word-wrap: break-word;
   }
 
   .sidebar-articleNav #dw__toc {

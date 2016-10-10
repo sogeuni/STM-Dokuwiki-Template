@@ -63,7 +63,8 @@ hr {
 .main h4 {
     padding-bottom: 0.3125em;
     margin-bottom: 0.625em;
-    margin-top: 4em
+    //margin-top: 4em;
+    margin-top: 2em;
 }
 .main h1 {
     border-bottom: 3px rgba(97, 97, 97, 0.1) solid

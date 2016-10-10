@@ -37,18 +37,21 @@
 
 .sidebar-articleNav {
     display: @ini_sidebar_toc_display;
-    order: @ini_sidebar_toc_order
+    order: @ini_sidebar_toc_order;
+    word-wrap: break-word;
 }
 
 .sidebar-articleNav .toc {
     list-style: none;
     padding: 0;
     margin-left: 1.25em;
-    font-size: 14.4px
+    //font-size: 14.4px;
+    font-size: 0.9em;
 }
 
 .sidebar-articleNav .level1 {
-    margin-top: 1.875em
+    //margin-top: 1.875em
+    margin-top: 0em
 }
 
 .sidebar-articleNav .level1:first-child {
