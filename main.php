@@ -35,6 +35,7 @@ $showTitle = ($ACT=='show') || ($ACT=='edit') || ($ACT=='backlink')
 </head>
 
 <body class="dokuwiki">
+    <?php include_once("analyticstracking.php") /* sogeuni analitics */  ?>
     <!--[if lte IE 7 ]><div id="IE7"><![endif]--><!--[if IE 8 ]><div id="IE8"><![endif]-->
 
     <div class="wrapper">
